@@ -1,7 +1,7 @@
 {
   "name": "hubot-slack-auto-reply",
   "description": "A script that encourages people to do more than just greet you",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "@lennymarkus",
   "license": "MIT",
   "keywords": "slack, hi, pet peeve",
