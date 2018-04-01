@@ -1,6 +1,13 @@
 # hubot-slack-auto-reply
 
-A script that encourages people to do more than just greet you
+One of my pet peeves with Slack (and other IM platforms) is when somebody needs something from you, but they just say "Hello" (Or "Hi", or "Hey Lenny", etc) and leave it at that.
+In order to have effective async communication, people should write our their whole query in one shot.
+
+This script implements an auto-responder that encourages people to do more than just greet you.
+
+If a standard greeting is detected, with no follow up within a minute, the bot will reply prompting the user to add more information.
+
+(If either party writes additional messages within the allowed timeframe, the auto-response is canceled)
 
 See [`src/slack-auto-reply.js`](src/slack-auto-reply.js) for full documentation.
 
